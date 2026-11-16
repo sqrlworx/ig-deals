@@ -1,0 +1,186 @@
+{
+  "name": "Black Friday EDC Deals",
+  "slug": "edc",
+  "max_catalog_pages": 4,
+  "brands": [
+    {
+      "name": "Bellroy",
+      "domain": "bellroy.com",
+      "platform": "promo"
+    },
+    {
+      "name": "Able Carry",
+      "domain": "ablecarry.com"
+    },
+    {
+      "name": "EVERGOODS",
+      "domain": "evergoods.us"
+    },
+    {
+      "name": "tomtoc",
+      "domain": "tomtoc.com"
+    },
+    {
+      "name": "ALPAKA",
+      "domain": "alpakagear.com"
+    },
+    {
+      "name": "Aer",
+      "domain": "aersf.com"
+    },
+    {
+      "name": "Peak Design",
+      "domain": "peakdesign.com"
+    },
+    {
+      "name": "Topo Designs",
+      "domain": "topodesigns.com"
+    },
+    {
+      "name": "Ridge",
+      "domain": "ridge.com"
+    },
+    {
+      "name": "Orbitkey",
+      "domain": "orbitkey.com"
+    },
+    {
+      "name": "NOMATIC",
+      "domain": "nomatic.com"
+    },
+    {
+      "name": "Chrome Industries",
+      "domain": "chromeindustries.com"
+    },
+    {
+      "name": "WANDRD",
+      "domain": "wandrd.com"
+    },
+    {
+      "name": "GORUCK",
+      "domain": "goruck.com"
+    },
+    {
+      "name": "Boundary Supply",
+      "domain": "boundarysupply.com"
+    },
+    {
+      "name": "CIVIVI",
+      "domain": "civivi.com"
+    },
+    {
+      "name": "Kizer / KnafS",
+      "domain": "knafs.com"
+    },
+    {
+      "name": "The James Brand",
+      "domain": "thejamesbrand.com"
+    },
+    {
+      "name": "Tom Bihn",
+      "domain": "tombihn.com"
+    },
+    {
+      "name": "Matador",
+      "domain": "matadorup.com"
+    },
+    {
+      "name": "Craighill",
+      "domain": "craighill.co"
+    },
+    {
+      "name": "Tactile Turn",
+      "domain": "tactileturn.com"
+    },
+    {
+      "name": "WaterField",
+      "domain": "sfbags.com"
+    }
+  ],
+  "filters": {
+    "min_pct_off": 0.15,
+    "max_pct_off": 0.75,
+    "min_price": 25,
+    "max_price": 600,
+    "exclude_title_regex": "gift\\s*card|e-?gift|sticker|patch|decal|replacement|spare|warranty|shipping protection|\\broute\\b|insurance|donation|sample|deposit|t-?shirt|\\btee\\b|hoodie|crewneck|sweatshirt|\\bhat\\b|beanie|\\bcap\\b|sock|jacket|\\bshorts?\\b|pants|shoe|boot|sneaker|jersey|glove|sandbag|kettlebell|ruck ?plate|weight(?:ed)? vest|\\bvest\\b|sledge|\\bclub\\b|trunk|roller|luggage|suitcase|carry-on spinner|nintendo|switch 2|steam deck|rog ally|playstation|xbox|leggings|tights|bottoms|\\bbra\\b|tank top|polo|shirt|pullover|fleece|joggers|apparel|clothing|jewelry|\\bring set\\b|\\bring\\b|chain kit|necklace|bracelet|vacuum pack|long sleeve|mock neck|ruck rack|\\\\brack\\\\b|\\btank\\b|racerback",
+    "exclude_product_types": [
+      "Apparel",
+      "Clothing",
+      "Footwear",
+      "Shoes",
+      "Gift Card",
+      "Tops",
+      "Bottoms",
+      "Headwear"
+    ],
+    "boost_title_regex": "backpack|sling|wallet|knife|pouch|organi[sz]er|daypack|tote|flashlight|\\bpen\\b|key|card ?holder|carabiner|messenger|bag|cardholder|multitool|edc",
+    "exclude_handles": [],
+    "penalize_title_regex": "\\bkit\\b|\\bset\\b|bundle|\\s\\+\\s|\\d-pack|combo|backpacking|expedition"
+  },
+  "weights": {
+    "pct": 0.55,
+    "saved": 0.35,
+    "saved_cap": 120,
+    "bf_bonus": 0.08,
+    "boost": 0.08,
+    "penalty": 0.12
+  },
+  "pins": [],
+  "theme": {
+    "bg": "#0e0e0e",
+    "fg": "#f3efe6",
+    "accent": "#ff5b1f",
+    "card": "#ece8df",
+    "muted": "#8d897f",
+    "ink": "#151515",
+    "display_font": "Anton",
+    "body_font": "Inter"
+  },
+  "content": {
+    "handle": "@yourhandle",
+    "category_label": "EDC",
+    "sale_name_bf": "Black Friday",
+    "sale_name_no_bf": "Sale",
+    "kicker": "BLACK FRIDAY 2026",
+    "kicker_no_bf": "ON SALE NOW",
+    "ribbon": "BLACK FRIDAY",
+    "post_title_line": "{sale_name} deals",
+    "post_subtitle": "{n} {category} picks on sale at {domain} right now, up to {max_pct}% off. Swipe for prices.",
+    "cta_title": "Which one's\ngoing in\nyour bag?",
+    "cta_points": [
+      "Save this post for later",
+      "Send it to your carry crew",
+      "Shop at {domain} (link in bio)"
+    ],
+    "disclaimer": "Prices checked {date} on {domain}. Deals, sizes and colours may change or sell out. Not sponsored.",
+    "caption_hook": "{brand} {sale_name} deals 🔥 {n} {category} picks up to {max_pct}% off. Swipe →",
+    "caption_intro": "Prices checked {date} on {domain}:",
+    "caption_cta": "Which one are you grabbing? 👇 Link in bio. Save this before it sells out.",
+    "hashtags": [
+      "#edc",
+      "#everydaycarry",
+      "#blackfriday",
+      "#blackfridaydeals",
+      "#edcgear",
+      "#pocketdump",
+      "#edcbag",
+      "#onebagtravel",
+      "#gearhead"
+    ],
+    "post_title_line_no_bf": "Deals on now",
+    "caption_hook_no_bf": "{brand} deals on now 🔥 {n} {category} picks up to {max_pct}% off. Swipe →"
+  },
+  "posts": {
+    "min_deals": 3,
+    "max_deals": 8,
+    "max_per_type": 3,
+    "max_posts": 20,
+    "require_bf_signal": false
+  },
+  "bullets": {
+    "max": 3,
+    "warn_below": 2,
+    "fetch_product_pages": true
+  },
+  "highlights": {}
+}
